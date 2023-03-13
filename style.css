@@ -1,9 +1,10 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
+
 /* banner styles */
-.banner-png{
+.banner-png {
     background-image: url("images/banner/banner2.png");
     height: 800px;
     width: 100%;
@@ -13,22 +14,26 @@ body{
     justify-content: space-around;
     background-position: center;
 }
-.banner{
-   height: 600px;  
-   width: 350px; 
-   margin-top: 150px;
-   margin-bottom: 100px;
+
+.banner {
+    height: 600px;
+    width: 350px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 50px;
     line-height: 55px;
 }
-.banner p{
+
+.banner p {
     font-size: 20px;
     line-height: 30px;
 }
-.btn{
-    background-color:darkorange ;
+
+.btn {
+    background-color: darkorange;
     border: none;
     padding: 20px;
     color: aliceblue;
@@ -36,8 +41,9 @@ body{
     border-radius: 5px;
     padding: 25px;
 }
+
 /* mistake styles */
-.mistake-parent{
+.mistake-parent {
     display: flex;
     align-items: center;
     margin-left: 15%;
@@ -45,61 +51,73 @@ body{
     margin-top: 200px;
     margin-bottom: 15px;
 }
-.mistake h1{
+
+.mistake h1 {
     font-size: 50px;
     line-height: 55px;
     font-weight: bold;
 }
-.mistake p{
+
+.mistake p {
     font-size: 20px;
     font-style: inherit;
 }
-.mistake ul li{
+
+.mistake ul li {
     font-size: 18px;
 }
-    .mistake{
-        width: 50%;
-    }
-    /* plan styles */
-    .plan-parent{
-        display: flex;
-        justify-content: center;
-        justify-content: space-evenly;
-        margin-bottom:100px  ;
-    }
-.plan{
+
+.mistake {
+    width: 50%;
+}
+
+/* plan styles */
+.plan-parent {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.plan {
     text-align: center;
     font-size: 40px;
     margin-top: 100px;
 }
-.sub-plan h1{
-font-size: 40px;
-line-height: 40px;
+
+.sub-plan h1 {
+    font-size: 40px;
+    line-height: 40px;
 }
-.sub-plan p{
-font-size:20px;
-font-weight: 700;
-font-stretch: expanded;
-font-style: sans-serif;
+
+.sub-plan p {
+    font-size: 20px;
+    font-weight: 700;
+    font-stretch: expanded;
+    font-style: sans-serif;
 }
-.main-plan{
+
+.main-plan {
     margin: 0 15%;
 }
+
 /* call now styles */
-.call-now{
+.call-now {
     background-image: linear-gradient(90deg, #F15B22 -5.04%, rgba(241, 91, 34, 0) 94.96%), url("images/watch.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 150px;
     border-radius: 20px;
-    padding: 30px 70px; 
-    
+    padding: 30px 70px;
+
 }
-.call-now h1{
+
+.call-now h1 {
     color: aliceblue;
     font-size: 60px;
 }
-.call-now button{
+
+.call-now button {
     padding: 10px 30px;
     background-color: white;
     color: coral;
@@ -108,8 +126,9 @@ font-style: sans-serif;
     border: none;
     font-weight: 600;
 }
+
 /* about page styles */
-.about-parent{
+.about-parent {
     display: flex;
     background-color: black;
     color: white;
@@ -117,25 +136,31 @@ font-style: sans-serif;
     padding: 100px;
 
 }
-.about h1{
+
+.about h1 {
     font-size: 60px;
 }
-.about{
+
+.about {
     width: 485px;
     height: 317px;
     padding-bottom: 200px;
 }
-.Subscribe{
+
+.Subscribe {
     width: 485px;
     height: 317px;
 }
-.about p{
+
+.about p {
     font-size: 20px;
 }
-.Subscribe h2{
+
+.Subscribe h2 {
     font-size: 25px;
 }
-.Subscribe button{
+
+.Subscribe button {
     padding: 20px 60px;
     border-radius: 5px;
     border: none;
@@ -145,14 +170,16 @@ font-style: sans-serif;
     background-color: white;
     margin: 20px 0;
 }
-#email{
+
+#email {
     padding: 20px 50px;
     border-radius: 8px;
-   background-color: black;
-   color: whitesmoke; 
-   border-color: aliceblue;
-   font-size: 20px;
+    background-color: black;
+    color: whitesmoke;
+    border-color: aliceblue;
+    font-size: 20px;
 }
-.social img{
+
+.social img {
     padding: 10px 10px;
 }
